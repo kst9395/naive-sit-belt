@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+	<field-definitions>
+		<field section="Data">
+			<label-query>//DataList/Data/DataKey</label-query>
+			<value-query>//DataList/Data/DataValue</value-query>
+		</field>
+		
+		<field section="MetaData">
+			<label-query>//MetaDataList/MetaData/DataKey</label-query>
+			<value-query>//MetaDataList/MetaData/DataValue</value-query>
+		</field>
+	</field-definitions>
+
+</configuration>

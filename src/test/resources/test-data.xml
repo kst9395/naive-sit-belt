@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<DataList>
+		<Data>
+			<DataKey>age</DataKey>
+			<DataValue>13</DataValue>
+		</Data>
+
+		<Data>
+			<DataKey>color</DataKey>
+			<DataValue>red</DataValue>
+		</Data>
+	</DataList>
+	<MetaDataList>
+		<MetaData>
+			<MetaDataKey>size</MetaDataKey>
+			<MetaDataValue>1024</MetaDataValue>
+		</MetaData>
+
+	</MetaDataList>
+
+</root>
