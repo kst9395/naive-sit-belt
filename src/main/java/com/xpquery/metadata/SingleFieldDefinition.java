@@ -1,11 +1,25 @@
 package com.xpquery.metadata;
 
+import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 
 public class SingleFieldDefinition {
 
 	private String labelQuery;
 	private String valueQuery;
+	
+	private String sectionName;
+	
+	
+	
+	
+	@XmlAttribute(name="section")
+	public String getSectionName() {
+		return sectionName;
+	}
+	public void setSectionName(String sectionName) {
+		this.sectionName = sectionName;
+	}
 	@XmlElement(name="label-query")
 	public String getLabelQuery() {
 		return labelQuery;

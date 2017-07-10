@@ -17,7 +17,7 @@ import com.xpquery.metadata.SingleFieldDefinition;
 import com.xpquery.metadata.XPQueryConfiguration;
 
 /**
- * This class read get a xml document and return list of key value pair, should
+ * This class read get a xml document + configuration model and return list of key value pair, should
  * be simple enough to implement
  * TODO: add abstraction to enable custom field processor
  * 
