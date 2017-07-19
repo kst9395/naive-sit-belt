@@ -64,7 +64,6 @@ public class FieldProcessor {
 					Node valueItem = values.item(i);
 					String metaValue = valueItem.getTextContent();
 					fieldMap.put(labelValue, metaValue);
-					System.out.println(labelValue + ":" + metaValue);
 				}
 
 			}
